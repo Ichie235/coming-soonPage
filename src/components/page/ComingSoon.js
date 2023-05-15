@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../../assets/css/comingSoon.css";
 import ComingImage from "../../assets/images/coming-soon7.png";
-//import EasyIcon from "../../assets/images/easy-icon.jpg"
+
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -11,6 +11,7 @@ import {
   UilShieldCheck,
   UilMobileAndroid,
   UilTachometerFast,
+  UilCheckCircle
 } from "@iconscout/react-unicons";
 
 export class ComingSoon extends Component {
@@ -96,8 +97,8 @@ export class ComingSoon extends Component {
                   </Col>
                   <Col md={3} sm={6}>
                     <div>
-                      <p className="content-paragraph">
-                        <UilTachometerFast size="70" color="#38B3A2" />
+                      <p className="content-paragraph easy">
+                        <UilCheckCircle size="70" color="#38B3A2" />
                         <br />
                         Easy
                       </p>
