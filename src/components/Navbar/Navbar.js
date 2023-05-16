@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { menuData } from "./MenuData";
 import "../../assets/css/Navbar.css";
-import Logo from "../../assets/images/avvic_logo_22.png";
+import Logo from "../../assets/images/avvic-logo.png";
 
 export class Navbar extends Component {
   state = { clicked: false };

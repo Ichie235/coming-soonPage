@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../assets/css/comingSoon.css";
-import ComingImage from "../../assets/images/coming-soon7.png";
+// import ComingImage from "../../assets/images/coming-soon7.png";
 
 
 import Container from "react-bootstrap/Container";
@@ -46,16 +46,10 @@ export class ComingSoon extends Component {
         <section className="section2">
           {" "}
           <div className="title-container">
-            <h1 className="first-title">REVOLUTIONIZING BANKING</h1>
-            <div className="comingImage-container">
-              <figure>
-                <img
-                  src={ComingImage}
-                  className="coming-image"
-                  alt="coming soon img"
-                ></img>
-              </figure>
-            </div>
+
+                <h1 className="head-title-1">COMING</h1>
+                <h1 className="head-title-2">SOON...</h1>
+           
           </div>
         </section>
         <section className="section3">

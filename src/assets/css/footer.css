@@ -60,3 +60,12 @@
     width: 80%;
   }
 }
+
+
+@media only screen and (min-width: 610px) and (max-width: 766px) {
+  .footer {
+    position: absolute;
+    top: 125%;
+    padding: 2.5rem;
+  }
+}
