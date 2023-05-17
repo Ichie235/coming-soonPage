@@ -1,6 +1,6 @@
 import './App.css';
 
-import NAVBAR from './components/Navbar/NavBar'
+import NAVBAR from './components/Nav/NavBar'
 import ComingSoon from './components/page/ComingSoon';
 import Footer from './components/Footer/Footer';
 

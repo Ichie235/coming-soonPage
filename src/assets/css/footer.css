@@ -1,6 +1,6 @@
 .footer {
   position: absolute;
-  top: 113%;
+  top: 116%;
   background: #1d373f;
   font-family: Varela Round, sans-serif;
   padding: 3rem;
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 576px) {
   .footer {
-    top: 204%;
+    top: 210%;
     left: 0.3%;
     width: 100%;
   }

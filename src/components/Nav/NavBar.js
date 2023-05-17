@@ -1,3 +1,5 @@
+import React from "react";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,8 +8,6 @@ import Button from "react-bootstrap/Button";
 
 import "../../assets/css/navBar.css"
 import Logo from "../../assets/images/avvic-logo-1.png"
-
-import React from "react";
 
 function NavBar() {
   return (
