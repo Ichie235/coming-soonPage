@@ -58,7 +58,7 @@ export class ComingSoon extends Component {
               <Container fluid>
                 <Row>
                   <Col md={3} sm={6}>
-                    <Card style={{ width: '9rem', height: '10rem' }} className="content-card">
+                    <Card className="content-card first-card">
                       <Card.Body>
                         <Card.Text>
                         <p className="content-paragraph" >
