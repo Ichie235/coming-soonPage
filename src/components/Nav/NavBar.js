@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 
-import "../../assets/css/navBar.css"
+import "../../assets/css/nav.css"
 import Logo from "../../assets/images/avvic-logo-1.png"
 
 function NavBar() {
