@@ -5,12 +5,11 @@
 .section1 {
   position: relative;
   background: url(../images/hero_33.jpg);
-  background-repeat: no-repeat;
-  height: 74vh;
+  height: 72vh;
 }
 .section2 {
   background: #fff;
-  height: 26vh;
+  height: 28vh;
 }
 
 .custom-shape-divider-bottom-1684098205 {
@@ -61,7 +60,7 @@
   text-align: center;
   color: #fff;
   letter-spacing: 7px;
-  text-shadow: 0px 22px 7px rgba(81,67,21,0.8);
+  text-shadow: 0px 14px 10px rgba(81,67,21,0.8);
 
 }
 .head-title-1{
@@ -75,6 +74,7 @@
   position: absolute;
   top: 72%;
   left: 33%;
+  box-sizing: border-box;
 }
 .content-title {
   color: #336574;
@@ -83,34 +83,17 @@
   font-family: "Italiana", serif;
   text-align: center;
   letter-spacing: 5px;
-  text-shadow: 0px 12px 4px rgba(95, 147, 58, 0.8);
+  text-shadow: 0px 8px 8px rgba(95, 147, 58, 0.8);
 }
 
 .content-paragraph {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #336574;
   text-align: center;
+  margin: 10px;
 }
 
-.vertical-1,
-.vertical-2,
-.vertical-3 {
-  border-left: 1px solid #336574;
-  height: 120px;
-  position: absolute;
-  left: 26%;
-  top: 32%;
-  box-shadow: 2px 2px 3px;
-}
-.vertical-2 {
-  left: 50%;
-  top: 32%;
-}
-.vertical-3 {
-  left: 76%;
-  top: 32%;
-}
 
 @media screen and (max-width: 576px) {
   .section1 {
@@ -132,7 +115,7 @@
   .content-container {
     position: absolute;
     top: 72%;
-    left: -1%;
+    left: -0.3%;
   }
   .content-title {
     font-size: 25px;
@@ -141,11 +124,11 @@
     text-shadow: 0px 9px 3px rgba(95, 147, 58, 0.8);
   }
 
-  .vertical-1,
-  .vertical-2,
-  .vertical-3 {
-    display: none;
+  .content-card{
+    margin-bottom: 15px;
   }
+
+ 
 }
 
 @media only screen and (min-width: 610px) and (max-width: 768px) {
@@ -153,10 +136,5 @@
     position: absolute;
     top: 72%;
     left: 17%;
-  }
-  .vertical-1,
-  .vertical-2,
-  .vertical-3 {
-    display: none;
   }
 }

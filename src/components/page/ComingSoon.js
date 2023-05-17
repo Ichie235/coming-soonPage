@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import "../../assets/css/comingSoon.css";
 // import ComingImage from "../../assets/images/coming-soon7.png";
 
-
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
 
 import {
   UilShieldCheck,
   UilMobileAndroid,
   UilTachometerFast,
-  UilCheckCircle
+  UilCheckCircle,
 } from "@iconscout/react-unicons";
 
 export class ComingSoon extends Component {
@@ -46,10 +46,8 @@ export class ComingSoon extends Component {
         <section className="section2">
           {" "}
           <div className="title-container">
-
-                <h1 className="head-title-1">COMING</h1>
-                <h1 className="head-title-2">SOON...</h1>
-           
+            <h1 className="head-title-1">COMING</h1>
+            <h1 className="head-title-2">SOON...</h1>
           </div>
         </section>
         <section className="section3">
@@ -60,43 +58,64 @@ export class ComingSoon extends Component {
               <Container fluid>
                 <Row>
                   <Col md={3} sm={6}>
-                    <div>
-                      <p className="content-paragraph">
+                    <Card style={{ width: '9rem', height: '10rem' }} className="content-card">
+                      <Card.Body>
+                        <Card.Text>
+                        <p className="content-paragraph" >
                         <UilMobileAndroid size="70" color="#38B3A2" />
                         <br />
-                        Digital experience
+                        Digital <br /> experience 
                       </p>
-                    </div>
-                    <div className="vertical-1"></div>
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                   
                   </Col>
                   <Col md={3} sm={6}>
-                    <div>
-                      <p className="content-paragraph">
+                    
+                    <Card  className="content-card">
+                      <Card.Body>
+                        <Card.Text>
+                        <p className="content-paragraph">
                         <UilShieldCheck size="70" color="#38B3A2" />
                         <br />
                         Secure
                       </p>
-                    </div>
-                    <div className="vertical-2"></div>
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                     
+                
+                    
                   </Col>
                   <Col md={3} sm={6}>
-                    <div>
-                      <p className="content-paragraph">
+                   
+                    <Card  className="content-card">
+                      <Card.Body>
+                        <Card.Text>
+                        <p className="content-paragraph">
                         <UilTachometerFast size="70" color="#38B3A2" />
                         <br />
                         speed
                       </p>
-                    </div>
-                    <div className="vertical-3"></div>
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                      
+                    
                   </Col>
                   <Col md={3} sm={6}>
-                    <div>
-                      <p className="content-paragraph easy">
-                        <UilCheckCircle size="70" color="#38B3A2" />
-                        <br />
-                        Easy
-                      </p>
-                    </div>
+                    <Card  className="content-card">
+                      <Card.Body>
+                        <Card.Text>
+                          <p className="content-paragraph easy">
+                            <UilCheckCircle size="70" color="#38B3A2" />
+                            <br />
+                            Easy
+                          </p>
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
                   </Col>
                 </Row>
               </Container>
