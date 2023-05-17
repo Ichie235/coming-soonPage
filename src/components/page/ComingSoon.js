@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../assets/css/comingSoon.css";
-// import ComingImage from "../../assets/images/coming-soon7.png";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
