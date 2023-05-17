@@ -41,6 +41,7 @@ export class ComingSoon extends Component {
               ></path>
             </svg>
           </div>
+          <div className="line-hider"></div>
         </section>
         <section className="section2">
           {" "}
@@ -51,8 +52,10 @@ export class ComingSoon extends Component {
         </section>
         <section className="section3">
           <div className="content-container">
-            <h1 className="content-title">Redefining banking</h1>
-            <hr style={{ color: "336574" }}></hr>
+            <h1 className="content-title">
+              Redefining banking <hr style={{ color: "336574" }}></hr>
+            </h1>
+
             <div>
               <Container fluid>
                 <Row>
@@ -60,51 +63,43 @@ export class ComingSoon extends Component {
                     <Card className="content-card first-card">
                       <Card.Body>
                         <Card.Text>
-                        <p className="content-paragraph" >
-                        <UilMobileAndroid size="70" color="#38B3A2" />
-                        <br />
-                        Digital <br /> experience 
-                      </p>
+                          <p className="content-paragraph">
+                            <UilMobileAndroid size="70" color="#38B3A2" />
+                            <br />
+                            Digital experience
+                          </p>
                         </Card.Text>
                       </Card.Body>
                     </Card>
-                   
                   </Col>
                   <Col md={3} sm={6}>
-                    
-                    <Card  className="content-card">
+                    <Card className="content-card">
                       <Card.Body>
                         <Card.Text>
-                        <p className="content-paragraph">
-                        <UilShieldCheck size="70" color="#38B3A2" />
-                        <br />
-                        Secure
-                      </p>
+                          <p className="content-paragraph">
+                            <UilShieldCheck size="70" color="#38B3A2" />
+                            <br />
+                            Secure
+                          </p>
                         </Card.Text>
                       </Card.Body>
                     </Card>
-                     
-                
-                    
                   </Col>
                   <Col md={3} sm={6}>
-                   
-                    <Card  className="content-card">
+                    <Card className="content-card">
                       <Card.Body>
                         <Card.Text>
-                        <p className="content-paragraph">
-                        <UilTachometerFast size="70" color="#38B3A2" />
-                        <br />
-                        speed
-                      </p>
+                          <p className="content-paragraph">
+                            <UilTachometerFast size="70" color="#38B3A2" />
+                            <br />
+                            speed
+                          </p>
                         </Card.Text>
                       </Card.Body>
                     </Card>
-                      
-                    
                   </Col>
                   <Col md={3} sm={6}>
-                    <Card  className="content-card">
+                    <Card className="content-card">
                       <Card.Body>
                         <Card.Text>
                           <p className="content-paragraph easy">

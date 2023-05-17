@@ -1,9 +1,9 @@
 .footer {
   position: absolute;
-  top: 116%;
+  top: 123%;
   background: #1d373f;
   font-family: Varela Round, sans-serif;
-  padding: 3rem;
+  padding: 2rem;
   width: 100%;
 }
 
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 576px) {
   .footer {
-    top: 210%;
+    top: 188%;
     left: 0.3%;
     width: 100%;
   }
@@ -60,7 +60,6 @@
     width: 80%;
   }
 }
-
 
 @media only screen and (min-width: 610px) and (max-width: 766px) {
   .footer {
